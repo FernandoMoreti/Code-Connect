@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br" className={prompt.className}>
       <body>
-        <div className="flex justify-center w-screen gap-7 h-screen p-10">
+        <div className="flex justify-center w-full gap-7 h-full p-10">
           <Aside />
           {children}
         </div>
